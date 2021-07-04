@@ -65,10 +65,11 @@ img:not(#gotop) {
   display: flex;
   flex-direction: column;
   background-image: url("bapt.jpg");
+  font-family: 'yg', serif;
 }
 
 @font-face {
-  font-family: 'yg-jalnan';
+  font-family: 'yg';
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
   font-weight: normal;
   font-style: normal;
