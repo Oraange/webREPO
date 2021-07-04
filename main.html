@@ -6,7 +6,8 @@
     <link rel="stylesheet" href="sty.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&display=swap" rel="stylesheet">
+
   </head>
   <body>
     <div class="Box">
@@ -15,16 +16,16 @@
       </div>
       <div class="listBox">
         <div class="listInner">
-          <span class="word"><a href="#">who are you?</a></span>
+          <span class="word"><a href="#iam">who are you?</a></span>
         </div>
         <div class="listInner">
-          <span class="word"><a href="#">what is your field?</a></span>
+          <span class="word"><a href="#myf">what is your field?</a></span>
         </div>
         <div class="listInner">
-          <span class="word"><a href="#">what is your hobby?</a></span>
+          <span class="word"><a href="#myh">what is your hobby?</a></span>
         </div>
         <div class="listInner">
-          <span class="word"><a href="#">how to contact with you?</a></span>
+          <span class="word"><a href="#you">how to contact with you?</a></span>
         </div>
       </div>
     </div>
@@ -35,7 +36,7 @@
         </path>
       </svg>
       <!-- first -->
-      <div class="content">
+      <div class="content" id="iam">
         <div class="subtitle"><div class="temp">#I am</div></div>
         <div class="maincontent">
           <div class="myimg">
@@ -50,42 +51,49 @@
         </div>
       </div>
       <!-- second -->
-      <div class="content">
+      <div class="content" id="myf">
         <div class="subtitle"><div class="temp">#My field is</div></div>
         <div class="maincontent">
           <div class="myimg">
-            <img src="myphoto.jpeg" alt="제 사진입니다.">
+            <img src="backend.jpeg" alt="backend 사진입니다.">
           </div>
           <div class="desc">
-            내용이 들어갈 곳입니다.
+            <li class="list"> skills <ul><li class="list">C++</li><li class="list">Python</li></ul></li>
+            <li class="list"> 게임 개발을 하다가 서버에 관심이 생겨 </li>
+            <li class="list"> 백엔드를 공부하고 있는 새싹 개발지망생 </li>
           </div>
         </div>
       </div>
       <!-- third -->
-      <div class="content">
+      <div class="content" id="myh">
         <div class="subtitle"><div class="temp">#My hobby is</div></div>
         <div class="maincontent">
           <div class="myimg">
-            <img src="myphoto.jpeg" alt="제 사진입니다.">
+            <img src="run.jpeg" alt="running 사진입니다.">
           </div>
           <div class="desc">
-            내용이 들어갈 곳입니다.
+            <li class="list"> 운동을 좋아합니다. </li>
+            <li class="list"> 웨이트 운동과 런닝을 주로 합니다. </li>
+            <li class="list"> 나중에 클라이밍도 도전해 볼 생각입니다! </li>
           </div>
         </div>
       </div>
       <!-- fourth -->
-      <div class="content">
+      <div class="content" id="you">
         <div class="subtitle"><div class="temp">#You can contact me through</div></div>
         <div class="maincontent">
           <div class="myimg">
-            <img src="myphoto.jpeg" alt="제 사진입니다.">
+            <img src="contact.jpg" alt="contact 사진입니다.">
           </div>
           <div class="desc">
-            내용이 들어갈 곳입니다.
+            <li class="list"> E-Mail : hrpp1353@gamil.com </li>
+            <li class="list"> velog : https://velog.io/@hrpp1300 </li>
+            <li class="list"> Linked In : https://www.linkedin.com/in/hrpp1300/ </li>
           </div>
         </div>
       </div>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script type="text/javascript" src="jvscript.js"></script>
   </body>
 </html>
