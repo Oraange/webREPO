@@ -64,9 +64,8 @@ img:not(#gotop) {
 .wrap {
   display: flex;
   flex-direction: column;
-  /*background-image: url("baptcopy.jpeg");*/
-  background: url("baptcopy.jpeg") repeat-y 0 0px / contain;
-  /*font-family: 'Arial',serif;*/
+  background-image: url("baptcopy.jpeg");
+  /*background: url("baptcopy.jpeg") repeat-y 0 0px / contain;*/
   transition-property: all;
   transition-duration: 0.5s;
 }
@@ -204,6 +203,6 @@ input[type=checkbox]:disabled ~ .wrap {
 input[type=checkbox]:checked ~ .wrap {
   transition-property: all;
   transition-duration: 0.5s;
-  background: url("bapt.jpg") repeat-y 0 0px / contain;
-  /*background-image: url("bapt.jpg");*/
+  /*background: url("bapt.jpg") repeat-y 0 0px / contain;*/
+  background-image: url("bapt.jpg");
 }
