@@ -152,7 +152,7 @@ input[type=checkbox] + label {
   left: 50px;
   bottom: 50px;
   cursor: pointer;
-  background: url('dark.png') no-repeat 0 0px / contain;
+  background: url('drkmd.png') no-repeat 0 0px / contain;
 }
 
 input[type=checkbox]:checked + label{
