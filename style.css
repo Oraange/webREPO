@@ -1,0 +1,114 @@
+a { text-decoration: none; color: black; }
+
+
+
+h1 {
+  font-size: 100px;
+  margin: 20px;
+  text-align: center;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  margin-top: 150px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px 5px white;
+}
+
+input {
+  display: none;
+}
+
+#why {
+  padding-left: 2px;
+}
+
+.desc {
+  width: 300px;
+  padding-right: 150px;
+  font-size: 30px;
+  margin-top: 100px;
+}
+
+#codesc {
+  padding-bottom: 300px;
+}
+
+.show {
+  visibility: hidden;
+  text-align: left;
+  display: flex;
+  position: absolute;
+  overflow: hidden;
+  top: 180px;
+  padding-bottom: 150px;
+  justify-content: space-around;
+  width: 0px;
+  height: 180px;
+  transition-property: all;
+  transition-duration: 0.8s;
+  opacity: 0;
+}
+
+.boxsel {
+  display: inline-block;
+  position: absolute;
+  background: black;
+  cursor: pointer;
+  width: 15px;
+  height: 15px;
+  top: 150px;
+  transform: translate(-50%,-50%);
+}
+
+
+#one { left : 47%; }
+#two { left : 49%; }
+#three { left : 51%; }
+#four { left : 53%; }
+
+.boxsel:hover {
+  background: linear-gradient(to right, white, gray, gray, white);
+  transition-property: all;
+  transition-duration: 0.8s;
+}
+
+input:checked + label {
+  cursor: default;
+  transition-property: all;
+  transition-duration: 0.8s;
+  transform: translate(0, 250px) scale(95,30);
+  background: linear-gradient(to right, white, gray, gray, white);
+  opacity: 80%;
+}
+
+input:checked ~ .show {
+  transition-property: all;
+  transition-duration: 0.8s;
+  opacity: 1;
+}
+
+input[id="firstsel"]:checked ~ #first {
+  visibility: visible;
+  width: 100%;
+  height: 300px;
+}
+
+input[id="secondsel"]:checked ~ #second {
+  visibility: visible;
+  width: 100%;
+  height: 300px;
+}
+
+input[id="thirdsel"]:checked ~ #third {
+  visibility: visible;
+  width: 100%;
+  height: 300px;
+}
+
+input[id="fourthsel"]:checked ~ #fourth {
+  visibility: visible;
+  width: 100%;
+  height: 300px;
+}
