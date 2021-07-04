@@ -2,14 +2,14 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>ORANGE WORLD</title>
     <link rel="stylesheet" href="sty.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&display=swap" rel="stylesheet">
 
   </head>
-  <body>
+  <body id="bd">
     <div class="Box">
       <div class="searchBox">
         <input type="text" id="search" onkeyup="filter()" placeholder="Search...(press 'w')">
@@ -58,7 +58,7 @@
             <img src="backend.jpeg" alt="backend 사진입니다.">
           </div>
           <div class="desc">
-            <li class="list"> skills <ul><li class="list">C++</li><li class="list">Python</li></ul></li>
+            <li class="list"> skills <div class="sk"><ul><li class="list">C++</li><li class="list">Python</li></ul></div></li>
             <li class="list"> 게임 개발을 하다가 서버에 관심이 생겨 </li>
             <li class="list"> 백엔드를 공부하고 있는 새싹 개발지망생 </li>
           </div>
@@ -86,13 +86,14 @@
             <img src="contact.jpg" alt="contact 사진입니다.">
           </div>
           <div class="desc">
-            <li class="list"> E-Mail : hrpp1353@gamil.com </li>
-            <li class="list"> velog : https://velog.io/@hrpp1300 </li>
-            <li class="list"> Linked In : https://www.linkedin.com/in/hrpp1300/ </li>
+            <li class="list" id="email"> E-Mail | hrpp1353@gamil.com </li>
+            <li class="list" id="velog"> <a href="https://velog.io/@hrpp1300">velog </a></li>
+            <li class="list" id="linked"> <a href="https://www.linkedin.com/in/hrpp1300/">Linked In</a></li>
           </div>
         </div>
       </div>
     </div>
+    <div class="gototop"><a href="#bd"><img src="gotop.png" id="gotop"></a></div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script type="text/javascript" src="jvscript.js"></script>
   </body>
